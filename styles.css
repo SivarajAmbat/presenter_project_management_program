@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('CI_Townhall.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+#control-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 🔥 TOP-CENTER TIMER CONTAINER */
+#fullscreen-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    background: rgba(14,16,32,0);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#timer {
+    font-size: 5em;
+    text-align: center;
+}
+
+#display-message {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.numberInput {
+    width: 50px;
+}
+
+#display-small {
+    visibility: hidden;
+}
+
+#music {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
